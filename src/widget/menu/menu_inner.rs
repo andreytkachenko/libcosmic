@@ -72,7 +72,7 @@ pub enum PathHighlight {
 
 /// X+ goes right and Y+ goes down
 #[derive(Debug, Clone, Copy)]
-pub(super) enum Direction {
+pub(crate) enum Direction {
     Positive,
     Negative,
 }
