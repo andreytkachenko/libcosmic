@@ -289,7 +289,7 @@ impl MenuBounds {
     }
 }
 
-pub(super) struct MenuState {
+pub(crate) struct MenuState {
     pub(super) index: Option<usize>,
     scroll_offset: f32,
     menu_bounds: MenuBounds,
